@@ -124,10 +124,10 @@ public class Constants {
     public static final char CURRENCY_MINUS_SIGN = '-';
 
     public static final String MARKET_APP_URL = "market://details?id=%s";
-    public static final String BINARY_URL = "https://github.com/inmean/kh69coin-android/releases";
+    public static final String BINARY_URL = "https://github.com/69coin-project/69coin-android/releases";
 
-    public static final String VERSION_URL = "https://kh69coinproject.com/version";
-    public static final String SUPPORT_EMAIL = "support@kh69coinproject.com";
+    public static final String VERSION_URL = "https://project.69coin.net/version";
+    public static final String SUPPORT_EMAIL = "support@69coin.net";
 
     // TODO move to resource files
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(
@@ -365,6 +365,6 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.kh69coin_MAIN.getCoinType(), "https://khcore.com/tx/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.kh69coin_MAIN.getCoinType(), "https://kh69core.com/tx/%s");
     }
 }
