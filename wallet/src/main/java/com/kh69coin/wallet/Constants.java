@@ -216,8 +216,8 @@ public class Constants {
                     new ServerAddress("club-cce-2.coinomi.net", 5045)),
             new CoinAddress(RichcoinMain.get(), new ServerAddress("richx-cce-1.coinomi.net", 5046),
                     new ServerAddress("richx-cce-2.coinomi.net", 5046)),
-            new CoinAddress(Kh69coinMain.get(), new ServerAddress("128.199.215.245", 50001),
-                    new ServerAddress("128.199.215.245", 50001)),
+            new CoinAddress(Kh69coinMain.get(), new ServerAddress("electrum.69coin.net", 50001),
+                    new ServerAddress("electrum.69coin.net", 50001)),
             new CoinAddress(IxcoinMain.get(), new ServerAddress("ixc-cce-1.coinomi.net", 5047),
                     new ServerAddress("ixc-cce-2.coinomi.net", 5047))
     );
@@ -365,6 +365,6 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.kh69coin_MAIN.getCoinType(), "https://kh69core.com/tx/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.kh69coin_MAIN.getCoinType(), "http://128.199.114.44:3001/tx/%s");
     }
 }

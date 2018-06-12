@@ -24,7 +24,7 @@ public class Kh69coinMain extends BitFamily {
         minNonDust = value(1000); // 0.00001 KHC mininput
         softDustLimit = value(100000); // 0.001 KHC
         softDustPolicy = SoftDustPolicy.BASE_FEE_FOR_EACH_SOFT_DUST_TXO;
-        signedMessageHeader = toBytes("69coin Signed Message:\n");
+        signedMessageHeader = toBytes("KH69coin Signed Message:\n");
     }
 
     private static Kh69coinMain instance = new Kh69coinMain();
