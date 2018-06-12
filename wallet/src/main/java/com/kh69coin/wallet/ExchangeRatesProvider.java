@@ -68,7 +68,7 @@ public class ExchangeRatesProvider extends ContentProvider {
     private static final String KEY_RATE_FIAT_CODE = "rate_fiat_code";
     private static final String KEY_SOURCE = "source";
     private static final String QUERY_PARAM_OFFLINE = "offline";
-    private static final String BASE_URL = "69coin.net/rate";
+    private static final String BASE_URL = "https://khcoinproject.com/simple/";
     private static final String TO_LOCAL_URL = BASE_URL + "/to-local/%s";
     private static final String TO_CRYPTO_URL = BASE_URL + "/to-crypto/%s";
     private static final String COINOMI_SOURCE = "project.69coin.net";
